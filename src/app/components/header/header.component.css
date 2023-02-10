@@ -1,0 +1,10 @@
+:host {
+    background: linear-gradient(rgb(94, 147, 212), rgb(129, 208, 146));
+    color: rgb(250, 250, 250);
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+    font-size: 2rem;
+    margin: 1%;
+    padding: 5px;
+}
