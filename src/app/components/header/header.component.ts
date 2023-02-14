@@ -9,11 +9,11 @@ import {MenuItem} from 'primeng/api';
 export class HeaderComponent {
 
     items: MenuItem[];
-
-
     constructor(){
         this.items =[];
     }
+
+
 
     ngOnInit() {
         this.items = [
@@ -21,7 +21,17 @@ export class HeaderComponent {
             {label: 'Quien soy', icon: ''},
             {label: 'UTNG', icon: ''},
             {label: 'Documentos', icon: 'pi pi-fw pi-file'},
-            {label: 'Comentarios', icon: 'pi pi-fw pi-cog'}
+            {label: 'Comentarios', icon: 'pi pi-fw pi-cog'},
+            {
+                label: 'Usuarios',
+                icon: 'pi pi-fw pi-pencil',
+                items: [
+                    {label: 'Email'},
+                    {label: 'Contraseña'},
+                    {label: 'Iniciar Sesion'},
+                    {label: 'Registrate'}
+                ]
+            }
         ];
     }
 

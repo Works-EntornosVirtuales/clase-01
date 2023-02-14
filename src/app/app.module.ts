@@ -9,6 +9,8 @@ import {MenubarModule} from 'primeng/menubar';
 import { BodyComponent } from './components/body/body.component';
 import {CarouselModule} from 'primeng/carousel';
 import {TabMenuModule} from 'primeng/tabmenu';
+import {SpeedDialModule} from 'primeng/speeddial';
+
 
 import {CardModule} from 'primeng/card';
 
@@ -27,7 +29,8 @@ import {CardModule} from 'primeng/card';
     MenubarModule,
     CarouselModule,
     CardModule,
-    TabMenuModule
+    TabMenuModule,
+    SpeedDialModule
     
   ],
   providers: [],
