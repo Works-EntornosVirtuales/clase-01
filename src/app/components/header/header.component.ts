@@ -19,17 +19,16 @@ export class HeaderComponent {
         this.items = [
             {label: 'Inicio', icon: 'pi pi-fw pi-home'},
             {label: 'Quien soy', icon: ''},
-            {label: 'UTNG', icon: ''},
+            {label: 'UTNG', icon: 'pi pi-fw pi-th-large'},
             {label: 'Documentos', icon: 'pi pi-fw pi-file'},
-            {label: 'Comentarios', icon: 'pi pi-fw pi-cog'},
             {
                 label: 'Usuarios',
-                icon: 'pi pi-fw pi-pencil',
+                icon: 'pi pi-fw pi-user',
                 items: [
-                    {label: 'Email'},
-                    {label: 'Contraseña'},
-                    {label: 'Iniciar Sesion'},
-                    {label: 'Registrate'}
+                    {label: 'Email', icon: 'pi pi-fw pi-user'},
+                    {label: 'Contraseña', icon: 'pi pi-fw pi-key'},
+                    {label: 'Iniciar Sesion', icon: 'pi pi-fw pi-sign-in'},
+                    {label: 'Registrate', icon: 'pi pi-fw pi-user-plus'}
                 ]
             }
         ];
